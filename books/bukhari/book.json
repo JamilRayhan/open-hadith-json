@@ -1,0 +1,29 @@
+{
+    "book_id": 1,
+    "book_data": {
+        "hadith_count": 7277,
+        "arabic": {
+            "title": "صحيح البخاري",
+            "author": "الإمام محمد بن إسماعيل البخاري",
+            "introduction": ""
+        },
+        "english": {
+            "title": "Sahih al-Bukhari",
+            "author": "Imam Muhammad ibn Ismail al-Bukhari",
+            "introduction": ""
+        },
+        "bangla": {
+            "title": "সহিহ বুখারী",
+            "author": "ইমাম মুহাম্মদ ইবনে ইসমাইল আল-বুখারী",
+            "introduction": ""
+        }
+    },
+    "meta": {
+        "source": "sunnah.com",
+        "languages": ["arabic", "english", "bangla"],
+        "last_updated": "2026-01-10",
+        "version": "1.0.0",
+        "generated_by": "open-hadith-json community",
+        "license": "see LICENSE file"
+    }
+}

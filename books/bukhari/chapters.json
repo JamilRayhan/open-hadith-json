@@ -1,0 +1,681 @@
+[
+    {
+        "chapter_id": 1,
+        "book_id": 1,
+        "arabic": "كتاب بدء الوحى",
+        "english": "Revelation",
+        "bangla": "ওহীর সূচনা"
+    },
+    {
+        "chapter_id": 2,
+        "book_id": 1,
+        "arabic": "كتاب الإيمان",
+        "english": "Belief",
+        "bangla": "ঈমান"
+    },
+    {
+        "chapter_id": 3,
+        "book_id": 1,
+        "arabic": "كتاب العلم",
+        "english": "Knowledge",
+        "bangla": "জ্ঞান"
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الوضوء",
+        "english": "Ablutions (Wudu')",
+        "bangla": "ওযু",
+        "chapter_id": 4
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الغسل",
+        "english": "Bathing (Ghusl)",
+        "bangla": "গোসল",
+        "chapter_id": 5
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الحيض",
+        "english": "Menstrual Periods",
+        "bangla": "ঋতুস্রাব",
+        "chapter_id": 6
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التيمم",
+        "english": "Rubbing hands and feet with dust (Tayammum)",
+        "bangla": "তায়াম্মুম",
+        "chapter_id": 7
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الصلاة",
+        "english": "Prayers (Salat)",
+        "bangla": "নামাজ",
+        "chapter_id": 8
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب مواقيت الصلاة",
+        "english": "Times of the Prayers",
+        "bangla": "নামাজের সময়",
+        "chapter_id": 9
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأذان",
+        "english": "Call to Prayers (Adhaan)",
+        "bangla": "আজান",
+        "chapter_id": 10
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الجمعة",
+        "english": "Friday Prayer",
+        "bangla": "জুমার নামাজ",
+        "chapter_id": 11
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب صلاة الخوف",
+        "english": "Fear Prayer",
+        "bangla": "ভয়ের নামাজ",
+        "chapter_id": 12
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب العيدين",
+        "english": "The Two Festivals (Eids)",
+        "bangla": "ঈদের নামাজ",
+        "chapter_id": 13
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الوتر",
+        "english": "Witr Prayer",
+        "bangla": "বিতর নামাজ",
+        "chapter_id": 14
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الاستسقاء",
+        "english": "Invoking Allah for Rain (Istisqaa)",
+        "bangla": "বৃষ্টির জন্য দোয়া",
+        "chapter_id": 15
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الكسوف",
+        "english": "Eclipses",
+        "bangla": "সূর্য ও চন্দ্রগ্রহণ",
+        "chapter_id": 16
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب سجود القرآن",
+        "english": "Prostration During Recital of Qur'an",
+        "bangla": "কুরআন তিলাওয়াতে সিজদা",
+        "chapter_id": 17
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التقصير",
+        "english": "Shortening the Prayers (At-Taqseer)",
+        "bangla": "নামাজ সংক্ষেপণ",
+        "chapter_id": 18
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التهجد",
+        "english": "Prayer at Night (Tahajjud)",
+        "bangla": "তাহাজ্জুদ নামাজ",
+        "chapter_id": 19
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فضل الصلاة فى مسجد مكة والمدينة",
+        "english": "Virtues of Prayer at Masjid Makkah and Madinah",
+        "bangla": "মক্কা ও মদিনার মসজিদে নামাজের ফজিলত",
+        "chapter_id": 20
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب العمل فى الصلاة",
+        "english": "Actions while Praying",
+        "bangla": "নামাজে করণীয়",
+        "chapter_id": 21
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب السهو",
+        "english": "Forgetfulness in Prayer",
+        "bangla": "নামাজে ভুল-ভ্রান্তি",
+        "chapter_id": 22
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الجنائز",
+        "english": "Funerals (Al-Janaa'iz)",
+        "bangla": "জানাজা",
+        "chapter_id": 23
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الزكاة",
+        "english": "Obligatory Charity Tax (Zakat)",
+        "bangla": "যাকাত",
+        "chapter_id": 24
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الحج",
+        "english": "Hajj (Pilgrimage)",
+        "bangla": "হজ",
+        "chapter_id": 25
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب العمرة",
+        "english": "`Umrah (Minor pilgrimage)",
+        "bangla": "উমরা",
+        "chapter_id": 26
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المحصر",
+        "english": "Pilgrims Prevented from Completing the Pilgrimage",
+        "bangla": "হজে বাধাপ্রাপ্ত",
+        "chapter_id": 27
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب جزاء الصيد",
+        "english": "Penalty of Hunting while on Pilgrimage",
+        "bangla": "হজে শিকার করলে জরিমানা",
+        "chapter_id": 28
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فضائل المدينة",
+        "english": "Virtues of Madinah",
+        "bangla": "মদিনার ফজিলত",
+        "chapter_id": 29
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الصوم",
+        "english": "Fasting",
+        "bangla": "রোজা",
+        "chapter_id": 30
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب صلاة التراويح",
+        "english": "Praying at Night in Ramadaan (Taraweeh)",
+        "bangla": "তারাবীহ নামাজ",
+        "chapter_id": 31
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فضل ليلة القدر",
+        "english": "Virtues of the Night of Qadr",
+        "bangla": "লাইলাতুল কদরের ফজিলত",
+        "chapter_id": 32
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الاعتكاف",
+        "english": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+        "bangla": "ইতিকাফ",
+        "chapter_id": 33
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب البيوع",
+        "english": "Sales and Trade",
+        "bangla": "বিক্রয় ও ব্যবসা",
+        "chapter_id": 34
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب السلم",
+        "english": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+        "bangla": "আগাম বিক্রয়",
+        "chapter_id": 35
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الشفعة",
+        "english": "Shuf'a",
+        "bangla": "শুফআ",
+        "chapter_id": 36
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الإجارة",
+        "english": "Hiring",
+        "bangla": "ভাড়া",
+        "chapter_id": 37
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الحوالات",
+        "english": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+        "bangla": "দেনা হস্তান্তর",
+        "chapter_id": 38
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الكفالة",
+        "english": "Kafalah",
+        "bangla": "জামিন",
+        "chapter_id": 39
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الوكالة",
+        "english": "Representation, Authorization, Business by Proxy",
+        "bangla": "প্রতিনিধিত্ব",
+        "chapter_id": 40
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المزارعة",
+        "english": "Agriculture",
+        "bangla": "কৃষি",
+        "chapter_id": 41
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المساقاة",
+        "english": "Distribution of Water",
+        "bangla": "সেচ",
+        "chapter_id": 42
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فى الاستقراض",
+        "english": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+        "bangla": "ঋণ ও দেউলিয়াত্ব",
+        "chapter_id": 43
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الخصومات",
+        "english": "Khusoomaat",
+        "bangla": "বিবাদ",
+        "chapter_id": 44
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فى اللقطة",
+        "english": "Lost Things Picked up by Someone (Luqatah)",
+        "bangla": "হারানো জিনিস",
+        "chapter_id": 45
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المظالم",
+        "english": "Oppressions",
+        "bangla": "অন্যায়",
+        "chapter_id": 46
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الشركة",
+        "english": "Partnership",
+        "bangla": "অংশীদারিত্ব",
+        "chapter_id": 47
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الرهن",
+        "english": "Mortgaging",
+        "bangla": "বন্ধক",
+        "chapter_id": 48
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب العتق",
+        "english": "Manumission of Slaves",
+        "bangla": "দাস মুক্তি",
+        "chapter_id": 49
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المكاتب",
+        "english": "Makaatib",
+        "bangla": "মুকাতাব",
+        "chapter_id": 50
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الهبة وفضلها والتحريض عليها",
+        "english": "Gifts",
+        "bangla": "উপহার",
+        "chapter_id": 51
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الشهادات",
+        "english": "Witnesses",
+        "bangla": "সাক্ষ্য",
+        "chapter_id": 52
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الصلح",
+        "english": "Peacemaking",
+        "bangla": "মীমাংসা",
+        "chapter_id": 53
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الشروط",
+        "english": "Conditions",
+        "bangla": "শর্ত",
+        "chapter_id": 54
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الوصايا",
+        "english": "Wills and Testaments (Wasaayaa)",
+        "bangla": "উইল/ওয়াসিয়ত",
+        "chapter_id": 55
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الجهاد والسير",
+        "english": "Fighting for the Cause of Allah (Jihaad)",
+        "bangla": "জিহাদ",
+        "chapter_id": 56
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فرض الخمس",
+        "english": "One-fifth of Booty to the Cause of Allah (Khumus)",
+        "bangla": "খুমুস",
+        "chapter_id": 57
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الجزية والموادعة",
+        "english": "Jizyah and Mawaada'ah",
+        "bangla": "জিজিয়া ও সন্ধি",
+        "chapter_id": 58
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب بدء الخلق",
+        "english": "Beginning of Creation",
+        "bangla": "সৃষ্টির সূচনা",
+        "chapter_id": 59
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب أحاديث الأنبياء",
+        "english": "Prophets",
+        "bangla": "নবীদের ঘটনা",
+        "chapter_id": 60
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المناقب",
+        "english": "Virtues and Merits of the Prophet (pbuh) and his Companions",
+        "bangla": "নবী ও সাহাবীদের গুণাবলী",
+        "chapter_id": 61
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فضائل أصحاب النبى صلى الله عليه وسلم",
+        "english": "Companions of the Prophet",
+        "bangla": "সাহাবীদের ফজিলত",
+        "chapter_id": 62
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب مناقب الأنصار",
+        "english": "Merits of the Helpers in Madinah (Ansaar)",
+        "bangla": "আনসারদের গুণাবলী",
+        "chapter_id": 63
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المغازى",
+        "english": "Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)",
+        "bangla": "গাযওয়া",
+        "chapter_id": 64
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التفسير",
+        "english": "Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))",
+        "bangla": "কুরআনের ব্যাখ্যা",
+        "chapter_id": 65
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب فضائل القرآن",
+        "english": "Virtues of the Qur'an",
+        "bangla": "কুরআনের ফজিলত",
+        "chapter_id": 66
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب النكاح",
+        "english": "Wedlock, Marriage (Nikaah)",
+        "bangla": "বিবাহ",
+        "chapter_id": 67
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الطلاق",
+        "english": "Divorce",
+        "bangla": "তালাক",
+        "chapter_id": 68
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب النفقات",
+        "english": "Supporting the Family",
+        "bangla": "পরিবারের ভরণপোষণ",
+        "chapter_id": 69
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأطعمة",
+        "english": "Food, Meals",
+        "bangla": "খাদ্য",
+        "chapter_id": 70
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب العقيقة",
+        "english": "Sacrifice on Occasion of Birth (`Aqiqa)",
+        "bangla": "আকীকা",
+        "chapter_id": 71
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الذبائح والصيد",
+        "english": "Hunting, Slaughtering",
+        "bangla": "জবাই ও শিকার",
+        "chapter_id": 72
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأضاحي",
+        "english": "Al-Adha Festival Sacrifice (Adaahi)",
+        "bangla": "কুরবানী",
+        "chapter_id": 73
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأشربة",
+        "english": "Drinks",
+        "bangla": "পানীয়",
+        "chapter_id": 74
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب المرضى",
+        "english": "Patients",
+        "bangla": "রোগী",
+        "chapter_id": 75
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الطب",
+        "english": "Medicine",
+        "bangla": "চিকিৎসা",
+        "chapter_id": 76
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب اللباس",
+        "english": "Dress",
+        "bangla": "পোশাক",
+        "chapter_id": 77
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأدب",
+        "english": "Good Manners and Form (Al-Adab)",
+        "bangla": "শিষ্টাচার",
+        "chapter_id": 78
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الاستئذان",
+        "english": "Asking Permission",
+        "bangla": "অনুমতি চাওয়া",
+        "chapter_id": 79
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الدعوات",
+        "english": "Invocations",
+        "bangla": "দোয়া",
+        "chapter_id": 80
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الرقاق",
+        "english": "To make the Heart Tender (Ar-Riqaq)",
+        "bangla": "হৃদয় কোমল করা",
+        "chapter_id": 81
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب القدر",
+        "english": "Divine Will (Al-Qadar)",
+        "bangla": "তাকদীর",
+        "chapter_id": 82
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأيمان والنذور",
+        "english": "Oaths and Vows",
+        "bangla": "শপথ ও মানত",
+        "chapter_id": 83
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب كفارات الأيمان",
+        "english": "Expiation for Unfulfilled Oaths",
+        "bangla": "শপথের কাফফারা",
+        "chapter_id": 84
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الفرائض",
+        "english": "Laws of Inheritance (Al-Faraa'id)",
+        "bangla": "উত্তরাধিকার",
+        "chapter_id": 85
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الحدود",
+        "english": "Limits and Punishments set by Allah (Hudood)",
+        "bangla": "হুদুদ",
+        "chapter_id": 86
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الديات",
+        "english": "Blood Money (Ad-Diyat)",
+        "bangla": "রক্তপণ",
+        "chapter_id": 87
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب استتابة المرتدين والمعاندين وقتالهم",
+        "english": "Apostates",
+        "bangla": "মুরতাদ",
+        "chapter_id": 88
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الإكراه",
+        "english": "(Statements made under) Coercion",
+        "bangla": "জবরদস্তি",
+        "chapter_id": 89
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الحيل",
+        "english": "Tricks",
+        "bangla": "চাতুর্য",
+        "chapter_id": 90
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التعبير",
+        "english": "Interpretation of Dreams",
+        "bangla": "স্বপ্নের ব্যাখ্যা",
+        "chapter_id": 91
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الفتن",
+        "english": "Afflictions and the End of the World",
+        "bangla": "ফিতনা ও কিয়ামত",
+        "chapter_id": 92
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الأحكام",
+        "english": "Judgments (Ahkaam)",
+        "bangla": "হুকুম",
+        "chapter_id": 93
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التمنى",
+        "english": "Wishes",
+        "bangla": "আকাঙ্ক্ষা",
+        "chapter_id": 94
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب أخبار الآحاد",
+        "english": "Accepting Information Given by a Truthful Person",
+        "bangla": "আহাদ সংবাদ",
+        "chapter_id": 95
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب الاعتصام بالكتاب والسنة",
+        "english": "Holding Fast to the Qur'an and Sunnah",
+        "bangla": "কুরআন ও সুন্নাহ আঁকড়ে ধরা",
+        "chapter_id": 96
+    },
+    {
+        "book_id": 1,
+        "arabic": "كتاب التوحيد",
+        "english": "Oneness, Uniqueness of Allah (Tawheed)",
+        "bangla": "তাওহীদ",
+        "chapter_id": 97
+    }
+]

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Hadith JSON Dataset",
+  "description": "JSON Schema for books, chapters, and Hadiths in multiple languages",
+  "type": "object",
+  "required": ["book_id", "book_data", "chapters", "hadiths", "meta"],
+  "properties": {
+    "book_id": {
+      "type": "integer",
+      "description": "Unique ID for the book"
+    },
+    "book_data": {
+      "type": "object",
+      "required": ["hadith_count", "arabic"],
+      "properties": {
+        "hadith_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Total number of Hadiths in this book"
+        },
+        "arabic": {
+          "type": "object",
+          "required": ["title", "author"],
+          "properties": {
+            "title": { "type": "string" },
+            "author": { "type": "string" },
+            "introduction": { "type": "string" }
+          }
+        },
+        "english": {
+          "type": "object",
+          "required": ["title", "author"],
+          "properties": {
+            "title": { "type": "string" },
+            "author": { "type": "string" },
+            "introduction": { "type": "string" }
+          }
+        },
+        "bangla": {
+          "type": "object",
+          "required": ["title", "author"],
+          "properties": {
+            "title": { "type": "string" },
+            "author": { "type": "string" },
+            "introduction": { "type": "string" }
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter_id", "book_id", "arabic"],
+        "properties": {
+          "chapter_id": { "type": "integer" },
+          "book_id": { "type": "integer" },
+          "arabic": { "type": "string" },
+          "english": { "type": "string" },
+          "bangla": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "hadiths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["book_id", "chapter_id", "hadith_id", "arabic"],
+        "properties": {
+          "book_id": { "type": "integer" },
+          "chapter_id": { "type": "integer" },
+          "hadith_id": { "type": "integer" },
+          "arabic": { "type": "string" },
+          "english": { "type": "string" },
+          "bangla": { "type": "string" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "grades": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["grade", "authority"],
+              "properties": {
+                "grade": { "type": "string" },
+                "authority": { "type": "string" },
+                "reference": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": ["source", "languages", "last_updated", "version"],
+      "properties": {
+        "source": { "type": "string" },
+        "languages": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "last_updated": { "type": "string", "format": "date" },
+        "version": { "type": "string" },
+        "generated_by": { "type": "string" },
+        "license": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

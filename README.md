@@ -61,7 +61,7 @@ hadith-json/
 
 ```json
 {
-  "book_id": "1",
+  "book_id": 1,
   "book_data": {
     "hadith_count": 7277,
     "arabic": {
@@ -90,8 +90,8 @@ hadith-json/
 ```json
 [
   {
-    "chapter_id": "1",
-    "book_id": "1",
+    "chapter_id": 1,
+    "book_id": 1,
     "arabic": "كتاب بدء الوحى",
     "english": "Revelation",
     "bangla": "ওহীর সূচনা"
@@ -107,9 +107,9 @@ Each Hadith object follows this structure:
 
 ```json
 {
-  "book_id": "1",
-  "chapter_id": "1",
-  "hadith_id": "1",
+  "book_id": 1,
+  "chapter_id": 1,
+  "hadith_id": 1,
   "arabic": "حَدَّثَنَا الْحُمَيْدِيُّ...",
   "english": "Narrated Umar bin Al-Khattab...",
   "bangla": "উমর ইবনুল খাত্তাব (রা.) থেকে বর্ণিত..."
@@ -118,7 +118,7 @@ Each Hadith object follows this structure:
 
 ### ✅ Rules
 
-* All IDs are **strings**
+* All IDs are **integers**
 * `arabic` text is **mandatory**
 * Other languages are **optional**
 * No HTML or formatting tags
@@ -168,9 +168,9 @@ This dataset records grading opinions with references and does not claim absolut
 
 ```json
 {
-  "book_id": "1",
-  "chapter_id": "1",
-  "hadith_id": "1",
+  "book_id": 1,
+  "chapter_id": 1,
+  "hadith_id": 1,
 
   "arabic": "…",
   "english": "…",
@@ -272,12 +272,25 @@ This dataset is provided for **educational and research purposes only**.
 
 ---
 
+## 🚫 Non-Goals
+
+This project does not aim to:
+- Provide religious rulings (fatwa)
+- Replace scholarly study
+- Enforce a single grading opinion
+
+
 ## 📜 License
 
 This project is open-source.
 
 Please see the `LICENSE` file for details.
 Attribution is appreciated.
+
+
+## 📖 Citation
+
+If you use this dataset in research or applications, please cite the repository.
 
 ---
 

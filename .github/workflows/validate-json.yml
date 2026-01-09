@@ -1,0 +1,37 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'books/**.json'
+      - 'books/**/hadiths/**.json'
+      - 'schema.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [node]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install ajv-cli jsonlint
+
+      - name: Validate JSON Syntax
+        run: |
+          echo "Checking JSON syntax..."
+          find books -name '*.json' -print0 | xargs -0 -n1 jsonlint -q
+
+      - name: Validate JSON Schema
+        run: |
+          echo "Validating JSON against schema.json..."
+          find books -name '*.json' -print0 | xargs -0 -n1 ajv validate -s schema.json -d
