@@ -18,28 +18,36 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        language: [node]
-
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install ajv-cli jsonlint
+        run: npm install -g ajv-cli jsonlint
 
-      - name: Validate JSON Syntax
+      - name: Validate JSON Syntax and Schema
         run: |
-          echo "Checking JSON syntax..."
-          find books -name '*.json' -print0 | xargs -0 -n1 jsonlint -q
+          set -e  # Exit immediately on error
+          shopt -s globstar nullglob
+          files=(books/**/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No JSON files found in books/."
+            exit 0
+          fi
 
-      - name: Validate JSON Schema
-        run: |
-          echo "Validating JSON against schema.json..."
-          find books -name '*.json' -print0 | xargs -0 -n1 ajv validate -s schema.json -d
+          echo "🔍 Validating JSON syntax..."
+          for file in "${files[@]}"; do
+            echo "→ $file"
+            jsonlint "$file" -q
+          done
+
+          echo "📐 Validating against schema.json..."
+          for file in "${files[@]}"; do
+            echo "→ $file"
+            ajv validate -s schema.json -d "$file"
+          done
