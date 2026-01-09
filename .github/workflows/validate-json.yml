@@ -1,6 +1,14 @@
 name: Validate JSON
 
 on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'books/**.json'
+      - 'books/**/hadiths/**.json'
+      - 'schema.json'
   pull_request:
     paths:
       - 'books/**.json'
