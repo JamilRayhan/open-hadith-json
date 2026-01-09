@@ -67,9 +67,9 @@ for chapter in range(1, TOTAL_CHAPTERS + 1):
 
     for key in sorted_keys:
         entry = {
-            "book_id": "1",
-            "chapter_id": str(chapter),
-            "hadith_id": key,
+            "book_id": 1,
+            "chapter_id": chapter,
+            "hadith_id": int(key),
             "arabic": lang_data['arabic'].get(key, ""),
             "english": lang_data['english'].get(key, ""),
             "bangla": lang_data['bangla'].get(key, "")
