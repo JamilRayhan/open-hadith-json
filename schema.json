@@ -106,7 +106,7 @@
           "items": { "type": "string" },
           "minItems": 1
         },
-        "last_updated": { "type": "string", "format": "date" },
+        "last_updated": { "type": "string" },
         "version": { "type": "string" },
         "generated_by": { "type": "string" },
         "license": { "type": "string" }
