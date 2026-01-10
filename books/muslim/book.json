@@ -1,0 +1,32 @@
+{
+    "book_id": 2,
+    "book_data": {
+        "hadith_count": 7459,
+        "arabic": {
+            "title": "صحيح مسلم",
+            "author": "الإمام مسلم بن الحجاج",
+            "introduction": "صحيح مسلم هو أحد أهم كتب الحديث النبوي عند المسلمين، من تأليف الإمام مسلم بن الحجاج القشيري النيسابوري. يعتبر ثاني أصح كتب الحديث بعد صحيح البخاري."
+        },
+        "english": {
+            "title": "Sahih Muslim",
+            "author": "Imam Muslim ibn al-Hajjaj",
+            "introduction": "Sahih Muslim is one of the Kutub al-Sittah (six major hadith collections) in Sunni Islam. It is the second most authentic hadith collection after Sahih al-Bukhari, and is highly acclaimed by Sunni Muslims."
+        },
+        "bangla": {
+            "title": "সহিহ মুসলিম",
+            "author": "ইমাম মুসলিম ইবনে আল-হজ্জাজ",
+            "introduction": "সহিহ মুসলিম হল সুন্নী ইসলামের ছয়টি প্রধান হাদীস সংগ্রহের মধ্যে একটি। এটি সহিহ বুখারীর পরে দ্বিতীয় সর্বাধিক প্রামাণিক হাদীস সংগ্রহ এবং সুন্নী মুসলিমদের দ্বারা উচ্চ প্রশংসিত।"
+        }
+    },
+    "meta": {
+        "source": "sunnah.com",
+        "languages": [
+            "arabic",
+            "english"
+        ],
+        "last_updated": "2026-01-10",
+        "version": "1.0.0",
+        "generated_by": "open-hadith-json community",
+        "license": "see LICENSE file"
+    }
+}

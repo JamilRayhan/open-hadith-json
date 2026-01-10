@@ -5,17 +5,17 @@
         "arabic": {
             "title": "صحيح البخاري",
             "author": "الإمام محمد بن إسماعيل البخاري",
-            "introduction": ""
+            "introduction": "صحيح البخاري هو مجموعة من الأحاديث جمعها أبو عبد الله محمد بن إسماعيل البخاري (رحمه الله). تُعتبر مجموعته من قبل الغالبية العظمى من العالم الإسلامي واحدة من أكثر مجموعات السنة النبوية صحة. تحتوي على حوالي 7563 حديثًا (مع التكرار) في 98 كتابًا."
         },
         "english": {
             "title": "Sahih al-Bukhari",
             "author": "Imam Muhammad ibn Ismail al-Bukhari",
-            "introduction": ""
+            "introduction": "Ṣaḥīḥ al-Bukhārī is a collection of hadīth compiled by Abu Abdullāh Muhammad Ibn Ismā`īl al-Bukhārī(rahimahullāh). His collection is recognized by the overwhelming majority of the Muslim world to be one of the most authentic collections of the Sunnah of the Prophet (ﷺ). It contains roughly 7563 hadīth (with repetitions) in 98 books."
         },
         "bangla": {
             "title": "সহিহ বুখারী",
             "author": "ইমাম মুহাম্মদ ইবনে ইসমাইল আল-বুখারী",
-            "introduction": ""
+            "introduction": "সহিহ বুখারী হল আবু আব্দুল্লাহ মুহাম্মদ ইবনে ইসমাইল আল-বুখারী (রহিমাহুল্লাহ) কর্তৃক সংকলিত হাদীস সংগ্রহ। মুসলিম বিশ্বের বিশাল সংখ্যাগরিষ্ঠ অংশ এটি নবী (সা.) এর সুন্নাহর অন্যতম সবচেয়ে প্রামাণিক সংগ্রহ হিসেবে স্বীকৃতি দেয়। এতে প্রায় ৭৫৬৩টি হাদীস (পুনরাবৃত্তি সহ) রয়েছে যা ৯৮টি বইয়ে বিভক্ত।"
         }
     },
     "meta": {

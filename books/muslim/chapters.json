@@ -1,0 +1,401 @@
+[
+    {
+        "id": 1,
+        "bookId": 2,
+        "arabic": "كتاب الإيمان",
+        "english": "The Book of Faith",
+        "bangla": "বিশ্বাসের বই"
+    },
+    {
+        "id": 2,
+        "bookId": 2,
+        "arabic": "كتاب الطهارة",
+        "english": "The Book of Purification",
+        "bangla": "পবিত্রতার বই"
+    },
+    {
+        "id": 3,
+        "bookId": 2,
+        "arabic": "كتاب الحيض",
+        "english": "The Book of Menstruation",
+        "bangla": "ঋতুর বই"
+    },
+    {
+        "id": 4,
+        "bookId": 2,
+        "arabic": "كتاب الصلاة",
+        "english": "The Book of Prayers",
+        "bangla": "নামাজের বই"
+    },
+    {
+        "id": 5,
+        "bookId": 2,
+        "arabic": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+        "english": "The Book of Mosques and Places of Prayer",
+        "bangla": "মসজিদ ও নামাজের স্থান"
+    },
+    {
+        "id": 6,
+        "bookId": 2,
+        "arabic": "كتاب صلاة المسافرين وقصرها",
+        "english": "The Book of Prayer - Travellers",
+        "bangla": "মুসাফিরদের নামাজ"
+    },
+    {
+        "id": 7,
+        "bookId": 2,
+        "arabic": "كتاب الجمعة",
+        "english": "The Book of Prayer - Friday",
+        "bangla": "জুমার নামাজ"
+    },
+    {
+        "id": 8,
+        "bookId": 2,
+        "arabic": "كتاب صلاة العيدين",
+        "english": "The Book of Prayer - Two Eids",
+        "bangla": "ঈদের নামাজ"
+    },
+    {
+        "id": 9,
+        "bookId": 2,
+        "arabic": "كتاب صلاة الاستسقاء‏",
+        "english": "The Book of Prayer - Rain",
+        "bangla": "বৃষ্টির নামাজ"
+    },
+    {
+        "id": 10,
+        "bookId": 2,
+        "arabic": "كتاب الكسوف",
+        "english": "The Book of Prayer - Eclipses",
+        "bangla": "সূর্য/চন্দ্রগ্রহণের নামাজ"
+    },
+    {
+        "id": 11,
+        "bookId": 2,
+        "arabic": "كتاب الجنائز",
+        "english": "The Book of Prayer - Funerals",
+        "bangla": "জানাজার নামাজ"
+    },
+    {
+        "id": 12,
+        "bookId": 2,
+        "arabic": "كتاب الزكاة",
+        "english": "The Book of Zakat",
+        "bangla": "যাকাতের বই"
+    },
+    {
+        "id": 13,
+        "bookId": 2,
+        "arabic": "كتاب الصيام",
+        "english": "The Book of Fasting",
+        "bangla": "রোজার বই"
+    },
+    {
+        "id": 14,
+        "bookId": 2,
+        "arabic": "كتاب الاعتكاف",
+        "english": "The Book of I'tikaf",
+        "bangla": "ইতিকাফের বই"
+    },
+    {
+        "id": 15,
+        "bookId": 2,
+        "arabic": "كتاب الحج",
+        "english": "The Book of Pilgrimage",
+        "bangla": "হজের বই"
+    },
+    {
+        "id": 16,
+        "bookId": 2,
+        "arabic": "كتاب النكاح",
+        "english": "The Book of Marriage",
+        "bangla": "বিবাহের বই"
+    },
+    {
+        "id": 17,
+        "bookId": 2,
+        "arabic": "كتاب الرضاع",
+        "english": "The Book of Suckling",
+        "bangla": "দুধ পান করানোর বই"
+    },
+    {
+        "id": 18,
+        "bookId": 2,
+        "arabic": "كتاب الطلاق",
+        "english": "The Book of Divorce",
+        "bangla": "তালাকের বই"
+    },
+    {
+        "id": 19,
+        "bookId": 2,
+        "arabic": "كتاب اللعان",
+        "english": "The Book of Invoking Curses",
+        "bangla": "শাপ দেওয়ার বই"
+    },
+    {
+        "id": 20,
+        "bookId": 2,
+        "arabic": "كتاب العتق",
+        "english": "The Book of Emancipating Slaves",
+        "bangla": "দাস মুক্তির বই"
+    },
+    {
+        "id": 21,
+        "bookId": 2,
+        "arabic": "كتاب البيوع",
+        "english": "The Book of Transactions",
+        "bangla": "লেনদেনের বই"
+    },
+    {
+        "id": 22,
+        "bookId": 2,
+        "arabic": "كتاب المساقاة",
+        "english": "The Book of Musaqah",
+        "bangla": "মুসাকাতের বই"
+    },
+    {
+        "id": 23,
+        "bookId": 2,
+        "arabic": "كتاب الفرائض",
+        "english": "The Book of the Rules of Inheritance",
+        "bangla": "উত্তরাধিকার বিধানের বই"
+    },
+    {
+        "id": 24,
+        "bookId": 2,
+        "arabic": "كتاب الهبات",
+        "english": "The Book of Gifts",
+        "bangla": "উপহারের বই"
+    },
+    {
+        "id": 25,
+        "bookId": 2,
+        "arabic": "كتاب الوصية",
+        "english": "The Book of Wills",
+        "bangla": "উইলের বই"
+    },
+    {
+        "id": 26,
+        "bookId": 2,
+        "arabic": "كتاب النذر",
+        "english": "The Book of Vows",
+        "bangla": "মান্নতের বই"
+    },
+    {
+        "id": 27,
+        "bookId": 2,
+        "arabic": "كتاب الأيمان",
+        "english": "The Book of Oaths",
+        "bangla": "শপথের বই"
+    },
+    {
+        "id": 28,
+        "bookId": 2,
+        "arabic": "كتاب القسامة والمحاربين والقصاص والديات",
+        "english": "The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)",
+        "bangla": "শপথ, যুদ্ধ, প্রতিশোধ ও রক্তপণ"
+    },
+    {
+        "id": 29,
+        "bookId": 2,
+        "arabic": "كتاب الحدود",
+        "english": "The Book of Legal Punishments",
+        "bangla": "আইনি শাস্তির বই"
+    },
+    {
+        "id": 30,
+        "bookId": 2,
+        "arabic": "كتاب الأقضية",
+        "english": "The Book of Judicial Decisions",
+        "bangla": "বিচারিক সিদ্ধান্তের বই"
+    },
+    {
+        "id": 31,
+        "bookId": 2,
+        "arabic": "كتاب اللقطة",
+        "english": "The Book of Lost Property",
+        "bangla": "হারানো সম্পত্তির বই"
+    },
+    {
+        "id": 32,
+        "bookId": 2,
+        "arabic": "كتاب الجهاد والسير",
+        "english": "The Book of Jihad and Expeditions",
+        "bangla": "জিহাদ ও অভিযান"
+    },
+    {
+        "id": 33,
+        "bookId": 2,
+        "arabic": "كتاب الإمارة",
+        "english": "The Book on Government",
+        "bangla": "শাসনব্যবস্থার বই"
+    },
+    {
+        "id": 34,
+        "bookId": 2,
+        "arabic": "كتاب الصيد والذبائح وما يؤكل من الحيوان",
+        "english": "The Book of Hunting, Slaughter, and what may be Eaten",
+        "bangla": "শিকার, জবাই ও ভক্ষণযোগ্য প্রাণী"
+    },
+    {
+        "id": 35,
+        "bookId": 2,
+        "arabic": "كتاب الأضاحى",
+        "english": "The Book of Sacrifices",
+        "bangla": "কুরবানির বই"
+    },
+    {
+        "id": 36,
+        "bookId": 2,
+        "arabic": "كتاب الأشربة",
+        "english": "The Book of Drinks",
+        "bangla": "পানীয়ের বই"
+    },
+    {
+        "id": 37,
+        "bookId": 2,
+        "arabic": "كتاب اللباس والزينة",
+        "english": "The Book of Clothes and Adornment",
+        "bangla": "পোশাক ও অলংকার"
+    },
+    {
+        "id": 38,
+        "bookId": 2,
+        "arabic": "كتاب الآداب",
+        "english": "The Book of Manners and Etiquette",
+        "bangla": "আদব ও শিষ্টাচার"
+    },
+    {
+        "id": 39,
+        "bookId": 2,
+        "arabic": "كتاب السلام",
+        "english": "The Book of Greetings",
+        "bangla": "অভিবাদনের বই"
+    },
+    {
+        "id": 40,
+        "bookId": 2,
+        "arabic": "كتاب الألفاظ من الأدب وغيرها",
+        "english": "The Book Concerning the Use of Correct Words",
+        "bangla": "সঠিক শব্দ ব্যবহারের বই"
+    },
+    {
+        "id": 41,
+        "bookId": 2,
+        "arabic": "كتاب الشعر",
+        "english": "The Book of Poetry",
+        "bangla": "কবিতার বই"
+    },
+    {
+        "id": 42,
+        "bookId": 2,
+        "arabic": "كتاب الرؤيا",
+        "english": "The Book of Dreams",
+        "bangla": "স্বপ্নের বই"
+    },
+    {
+        "id": 43,
+        "bookId": 2,
+        "arabic": "كتاب الفضائل",
+        "english": "The Book of Virtues",
+        "bangla": "গুণাবলীর বই"
+    },
+    {
+        "id": 44,
+        "bookId": 2,
+        "arabic": "كتاب فضائل الصحابة رضى الله تعالى عنهم",
+        "english": "The Book of the Merits of the Companions",
+        "bangla": "সাহাবীদের গুণাবলী"
+    },
+    {
+        "id": 45,
+        "bookId": 2,
+        "arabic": "كتاب البر والصلة والآداب",
+        "english": "The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship",
+        "bangla": "সদগুণ, আত্মীয়তার সম্পর্ক ও আদব"
+    },
+    {
+        "id": 46,
+        "bookId": 2,
+        "arabic": "كتاب القدر",
+        "english": "The Book of Destiny",
+        "bangla": "তাকদিরের বই"
+    },
+    {
+        "id": 47,
+        "bookId": 2,
+        "arabic": "كتاب العلم",
+        "english": "The Book of Knowledge",
+        "bangla": "জ্ঞান অর্জনের বই"
+    },
+    {
+        "id": 48,
+        "bookId": 2,
+        "arabic": "كتاب الذكر والدعاء والتوبة والاستغفار",
+        "english": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
+        "bangla": "আল্লাহর স্মরণ, দোয়া, তওবা ও ক্ষমা প্রার্থনা"
+    },
+    {
+        "id": 49,
+        "bookId": 2,
+        "arabic": "كتاب الرقاق",
+        "english": "The Book of Heart-Melting Traditions",
+        "bangla": "হৃদয় গলানো হাদিস"
+    },
+    {
+        "id": 50,
+        "bookId": 2,
+        "arabic": "كتاب التوبة",
+        "english": "The Book of Repentance",
+        "bangla": "তওবার বই"
+    },
+    {
+        "id": 51,
+        "bookId": 2,
+        "arabic": "كتاب صفات المنافقين وأحكامهم",
+        "english": "Characteristics of The Hypocrites And Rulings Concerning Them",
+        "bangla": "মুনাফিকদের বৈশিষ্ট্য ও বিধান"
+    },
+    {
+        "id": 52,
+        "bookId": 2,
+        "arabic": "كتاب صفة القيامة والجنة والنار",
+        "english": "Characteristics of the Day of Judgment, Paradise, and Hell",
+        "bangla": "কিয়ামত, জান্নাত ও জাহান্নামের বৈশিষ্ট্য"
+    },
+    {
+        "id": 53,
+        "bookId": 2,
+        "arabic": "كتاب الجنة وصفة نعيمها وأهلها",
+        "english": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+        "bangla": "জান্নাত, তার বর্ণনা, নেয়ামত ও অধিবাসী"
+    },
+    {
+        "id": 54,
+        "bookId": 2,
+        "arabic": "كتاب الفتن وأشراط الساعة",
+        "english": "The Book of Tribulations and Portents of the Last Hour",
+        "bangla": "ফিতনা ও কিয়ামতের আলামত"
+    },
+    {
+        "id": 55,
+        "bookId": 2,
+        "arabic": "كتاب الزهد والرقائق",
+        "english": "The Book of Zuhd and Softening of Hearts",
+        "bangla": "জুহদ ও হৃদয় নরম করার বই"
+    },
+    {
+        "id": 56,
+        "bookId": 2,
+        "arabic": "كتاب التفسير",
+        "english": "The Book of Commentary on the Qur'an",
+        "bangla": "কুরআনের তাফসির"
+    },
+    {
+        "id": 0,
+        "bookId": 2,
+        "arabic": "المقدمة",
+        "english": "Introduction",
+        "bangla": "ভূমিকা"
+    }
+]
