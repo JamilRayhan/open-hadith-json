@@ -1,0 +1,33 @@
+{
+    "book_id": 3,
+    "book_data": {
+        "hadith_count": 5758,
+        "arabic": {
+            "title": "سنن النسائي",
+            "author": "الإمام النسائي",
+            "introduction": "سنن النسائي هو كتاب حديث جمعه الإمام أحمد النسائي (رحمه الله). ويُعتبر مجموعته بالإجماع واحدة من الكتب الستة المعتمدة (كتب السنة الستة) لسنة النبي محمد ﷺ. ويحتوي على حوالي 5700 حديث (مع التكرار) في 52 كتابًا."
+        },
+        "english": {
+            "title": "Sunan an-Nasa'i",
+            "author": "Imam an-Nasa'i",
+            "introduction": "Sunan an-Nasa'i is a collection of hadith compiled by Imam Ahmad an-Nasa'i (rahimahullah). His collection is unanimously considered to be one of the six canonical collections of hadith (Kutub as-Sittah) of the Sunnah of the Prophet (ﷺ). It contains roughly 5700 hadith (with repetitions) in 52 books."
+        },
+        "bangla": {
+            "title": "সুনান আন-নাসাঈ",
+            "author": "ইমাম আন-নাসাঈ",
+            "introduction": "সুনান আন-নাসাঈ হল ইমাম আহমাদ আন-নাসাঈ (রহিমাহুল্লাহ) সংকলিত একটি হাদিসের গ্রন্থ। তাঁর এই সংকলন সর্বসম্মতভাবে ছয়টি প্রসিদ্ধ হাদিস সংকলনের (কুতুবুস সিত্তাহ) অন্যতম হিসেবে গণ্য। এতে প্রায় ৫৭০০টি হাদিস (পুনরাবৃত্তিসহ) ৫২টি অধ্যায়ে সংকলিত হয়েছে।"
+        }
+    },
+    "meta": {
+        "source": "sunnah.com",
+        "languages": [
+            "arabic",
+            "english",
+            "bangla"
+        ],
+        "last_updated": "2026-01-10",
+        "version": "1.0.0",
+        "generated_by": "open-hadith-json community",
+        "license": "see LICENSE file"
+    }
+}
