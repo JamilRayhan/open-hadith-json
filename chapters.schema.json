@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Chapters Array Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["chapter_id", "book_id", "arabic"],
+    "properties": {
+      "chapter_id": { "type": "integer" },
+      "book_id": { "type": "integer" },
+      "arabic": { "type": "string" },
+      "english": { "type": "string" },
+      "bangla": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}

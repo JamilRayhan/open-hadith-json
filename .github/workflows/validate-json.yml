@@ -8,12 +8,12 @@ on:
     paths:
       - 'books/**.json'
       - 'books/**/hadiths/**.json'
-      - 'schema.json'
+      - '*.schema.json'
   pull_request:
     paths:
       - 'books/**.json'
       - 'books/**/hadiths/**.json'
-      - 'schema.json'
+      - '*.schema.json'
 
 jobs:
   validate:
@@ -34,20 +34,37 @@ jobs:
         run: |
           set -e  # Exit immediately on error
           shopt -s globstar nullglob
-          files=(books/**/*.json)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "No JSON files found in books/."
-            exit 0
-          fi
-
+          
           echo "🔍 Validating JSON syntax..."
-          for file in "${files[@]}"; do
+          for file in books/**/*.json; do
+            [ -f "$file" ] || continue
             echo "→ $file"
             jsonlint "$file" -q
           done
 
-          echo "📐 Validating against schema.json..."
-          for file in "${files[@]}"; do
-            echo "→ $file"
+          echo ""
+          echo "📐 Validating against schemas..."
+          
+          # Validate book.json files
+          for file in books/*/book.json; do
+            [ -f "$file" ] || continue
+            echo "→ $file (using schema.json)"
             ajv validate -s schema.json -d "$file"
           done
+          
+          # Validate chapters.json files
+          for file in books/*/chapters.json; do
+            [ -f "$file" ] || continue
+            echo "→ $file (using chapters.schema.json)"
+            ajv validate -s chapters.schema.json -d "$file"
+          done
+          
+          # Validate individual hadith files
+          for file in books/*/hadiths/*.json; do
+            [ -f "$file" ] || continue
+            echo "→ $file (using hadith.schema.json)"
+            ajv validate -s hadith.schema.json -d "$file"
+          done
+          
+          echo ""
+          echo "✅ All JSON files validated successfully!"

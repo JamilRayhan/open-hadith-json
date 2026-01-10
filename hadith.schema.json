@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Single Hadith Schema",
+  "type": "object",
+  "required": ["book_id", "chapter_id", "hadith_id", "arabic"],
+  "properties": {
+    "book_id": { "type": "integer" },
+    "chapter_id": { "type": "integer" },
+    "hadith_id": { "type": "integer" },
+    "arabic": { "type": "string" },
+    "english": { "type": "string" },
+    "bangla": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "grades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grade", "authority"],
+        "properties": {
+          "grade": { "type": "string" },
+          "authority": { "type": "string" },
+          "reference": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
